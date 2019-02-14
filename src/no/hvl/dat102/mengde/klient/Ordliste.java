@@ -16,12 +16,13 @@ public class Ordliste {
 
 		String[] ord = { "God", "F�rde", "Hans", "Hansen", "Hansaby", "Olsen", "Ole", "buss", "rute", "Bergen" };
 
+		@SuppressWarnings("resource")
 		Scanner tastatur = new Scanner(System.in);
 		// Legger til ordene i mengden ordListe1
 
 		for (int i = 0; i < ord.length; i++) {
 			ordListe1.leggTil(ord[i]);
-		}
+		} 
 		MengdeADT<String> ordListe2 = new TabellMengde<String>();
 
 		System.out.print("Oppgi en streng, avslutt med zzz :");

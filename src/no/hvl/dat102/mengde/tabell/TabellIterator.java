@@ -3,8 +3,8 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class TabellIterator<T> implements Iterator<T>{
-// Klasse som kan brukes til å gå gjennom alle elementer
-// i et objekt av klasse Mengde når denne klassen Mengde er
+// Klasse som kan brukes til ï¿½ gï¿½ gjennom alle elementer
+// i et objekt av klasse Mengde nï¿½r denne klassen Mengde er
 // implementert vha tabell.
 //
     private int antall;  // antall elementer i mengden
@@ -36,7 +36,7 @@ public class TabellIterator<T> implements Iterator<T>{
     
    @Override
 	public void remove(){
-    // Fjerner elementet vi står på
+    // Fjerner elementet vi stï¿½r pï¿½
      System.out.println("Denne er ikke implementert");
  }
 }//class

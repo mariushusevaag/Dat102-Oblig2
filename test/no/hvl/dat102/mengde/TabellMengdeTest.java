@@ -22,8 +22,7 @@ public class TabellMengdeTest {
 		m1.leggTil(2);
 		m1.leggTil(3);
 		m1.leggTil(4);
-		m1.leggTil(5);
-
+		m1.leggTil(5); 
 		m2.leggTil(4);
 		m2.leggTil(5);
 		m2.leggTil(6);

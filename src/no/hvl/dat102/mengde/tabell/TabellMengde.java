@@ -17,6 +17,7 @@ public class TabellMengde<T> implements MengdeADT<T> {
 		this(STDK);
 	}
 
+	@SuppressWarnings("unchecked")
 	public TabellMengde(int start) {
 		antall = 0;
 		tab = (T[]) (new Object[start]);
@@ -43,6 +44,7 @@ public class TabellMengde<T> implements MengdeADT<T> {
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	private void utvidKapasitet() {
 		T[] hjelpetabell = (T[]) (new Object[2 * tab.length]);
 		for (int i = 0; i < tab.length; i++) {
@@ -198,7 +200,7 @@ public class TabellMengde<T> implements MengdeADT<T> {
 
 	@Override
 	public boolean undermengde(MengdeADT<T> m2) {
-		boolean erUnderMengde = true;
+		//boolean erUnderMengde = true;
 		//Fyll ut
 		return false;
 	}
@@ -207,6 +209,18 @@ public class TabellMengde<T> implements MengdeADT<T> {
 	public Iterator<T> oppramser() {
 		return new TabellIterator<T>(tab, antall);
 	}
-
+	
+	@Override
+	public String toString() {
+		String resultat = "";
+		
+		Iterator<T> itr = this.oppramser();
+		
+		while(itr.hasNext() && itr != null) {
+			resultat += itr.next().toString() + "\t";
+		}
+		
+		return resultat; 
+	}
 
 }// class
