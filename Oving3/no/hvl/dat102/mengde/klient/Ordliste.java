@@ -14,7 +14,7 @@ public class Ordliste {
 
 		MengdeADT<String> ordListe1 = new TabellMengde<String>();
 
-		String[] ord = { "God", "F�rde", "Hans", "Hansen", "Hansaby", "Olsen", "Ole", "buss", "rute", "Bergen" };
+		String[] ord = { "God", "Førde", "Hans", "Hansen", "Hansaby", "Olsen", "Ole", "buss", "rute", "Bergen" };
 
 		@SuppressWarnings("resource")
 		Scanner tastatur = new Scanner(System.in);
