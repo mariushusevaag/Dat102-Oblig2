@@ -1,0 +1,3 @@
+(Dette er en tekstfil)
+Denne filen vil inneholde[noen) feil i tegnsetting av (Parenteser)
+Her ha{r vi feil

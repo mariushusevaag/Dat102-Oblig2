@@ -1,0 +1,2 @@
+(Dette er en tekstfil)
+Denne filen vil ikke inneholde[noen] feil i tegnsetting av (Parenteser)
