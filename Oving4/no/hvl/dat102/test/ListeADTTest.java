@@ -109,6 +109,7 @@ public class ListeADTTest {
 		liste.leggTil(e1);
 		liste.leggTil(e4);
 		liste.leggTil(e1);
+		
 
 		assertEquals(e0, liste.fjern(e0));
 		assertEquals(e1, liste.fjern(e1));
