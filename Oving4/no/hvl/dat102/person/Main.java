@@ -7,7 +7,7 @@ public class Main {
 		printIntro();
 		Scanner sc = new Scanner(System.in);
 		int method = 0;
-
+ 
 		// For å unngå trøbbel med newline-characters og scanner
 		try{
 			method = Integer.parseInt(sc.nextLine());

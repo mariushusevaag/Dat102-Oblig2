@@ -8,11 +8,7 @@ import no.hvl.dat102.kjedet.KjedetOrdnetListe;
 
 public class ListeADTTest {
 
-	/**
-	 * Test av KjedetOrdnetListeADT med heltall.
-	 * 
-	 * @author Ole Olsen
-	 */
+	
 	private KjedetOrdnetListe<Integer> liste;
 
 	// Test data

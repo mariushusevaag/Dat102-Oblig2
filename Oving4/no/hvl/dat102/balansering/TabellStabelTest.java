@@ -13,7 +13,7 @@ public class TabellStabelTest {
 	private final static Integer e2 = 2;
 	private final static Integer e3 = 3;
 	@SuppressWarnings("unused")
-	private final static Integer e4 = 4;
+	private final static Integer e4 = 4; 
 	private final static Integer e5 = 5;
 	
 	@Before
